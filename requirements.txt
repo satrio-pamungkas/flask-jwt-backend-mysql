@@ -1,0 +1,8 @@
+flask
+Flask-SQLAlchemy
+pyjwt
+datetime
+uuid
+python-dotenv
+flask-cors
+mysqlclient
