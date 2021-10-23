@@ -4,9 +4,9 @@ db = SQLAlchemy()
 
 class Users(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    public_id = db.Column(db.Integer)
+    public_id = db.Column(db.String(50))
     name = db.Column(db.String(50))
-    password = db.Column(db.String(50))
+    password = db.Column(db.String(256))
     admin = db.Column(db.Boolean)
 
 class Books(db.Model):
